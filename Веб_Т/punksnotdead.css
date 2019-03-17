@@ -1,3 +1,9 @@
+   body {
+   	background-image: url();
+   	background-attachment: fixed;
+   	background-repeat: no-repeat;
+   	background-size: 100%;
+   }
    @font-face {
     font-family: Pompadur;
     src: url(fonts/pompadur.ttf); 
@@ -5,6 +11,11 @@
    body {
     font-family: Pompadur, 'Comic Sans MS', cursive;
     background-color: beige;
+    background-image: url(http://podari24.com/upload/iblock/586/586dda2ec7d5920d7875a1e5ceccbc5c.png);
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
    }">
    a#special{
    font-stretch: extra-expanded;
@@ -17,6 +28,7 @@
    h1,h2{ 
    	size: 20px;
    	color: #DC143C;
+    text-align: center;
     } 
 
    i.date{
@@ -47,8 +59,30 @@
    		color: blue;
    		size: 17px;
    	}
+   	h3 > b {
+   		text-shadow: 2px 2px 4px black, 2px 2px 10px blue;
+   		color: pink;
+   		size: 18px;
+   	}
+   	h3 {
+   		size: 20px;
+        color: #DC143C;
+   		text-align: center;
+   	}
+   	ul > s {
+   		text-decoration: none;
+   		font-size: 28px;
+   	}
+    b ~ i {
+   		color: blue;
+   	}
+   	 b > i {
+   		color: orange;
+   	} 
+
 /* <!-- class="brackets" для текста в скобках -->
    <!-- <b><a> для определений -->
    <!-- <i> под даты -->
    <!-- <b> под названия групп-->	
-   <!-- <i><b> цитаты -->      */
+   <!-- <i><b> цитаты -->      
+   <!-- <b><i> список -->*/
